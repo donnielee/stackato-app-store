@@ -12,7 +12,7 @@ apps:
   mem: 128
   env:
     CATALYST_HOME: $HOME
-  src: git://github.com/Stackato-Apps/catalyst-tut2.git
+  src: https://github.com/Stackato-Apps/catalyst-tut2.git
   info: https://github.com/Stackato-Apps/catalyst-tut2#readme
   icon: catalyst.png
 
@@ -24,7 +24,7 @@ apps:
   mem: 128
   env:
     CATALYST_HOME: $HOME
-  src: git://github.com/Stackato-Apps/catalyst-tut3.git
+  src: https://github.com/Stackato-Apps/catalyst-tut3.git
   commit: master
   info: https://github.com/Stackato-Apps/catalyst-tut3#readme
   icon: catalyst.png
@@ -36,7 +36,7 @@ apps:
   framework: python
   license: Unknown
   mem: 128
-  src: git://github.com/Stackato-Apps/cherrypy-py3.git
+  src: https://github.com/Stackato-Apps/cherrypy-py3.git
   commit: master
   info: https://github.com/Stackato-Apps/cherrypy-py3#readme
 
@@ -46,7 +46,7 @@ apps:
   framework: perl
   license: Unknown
   mem: 128
-  src: git://github.com/Stackato-Apps/dancer-helloworld.git
+  src: https://github.com/Stackato-Apps/dancer-helloworld.git
   commit: master
   info: https://github.com/Stackato-Apps/dancer-helloworld#readme
 
@@ -58,7 +58,7 @@ apps:
   mem: 256
   services:
     postgresql: flaskbars-db
-  src: git://github.com/Stackato-Apps/flaskbars.git
+  src: https://github.com/Stackato-Apps/flaskbars.git
   commit: stackato
   info: https://github.com/Stackato-Apps/flaskbars#README
 
@@ -68,7 +68,7 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 256
-  src: git://github.com/Stackato-Apps/go-hello-buildpack.git
+  src: https://github.com/Stackato-Apps/go-hello-buildpack.git
   commit: master
   info: https://github.com/Stackato-Apps/go-hello-buildpack#readme
 
@@ -78,7 +78,7 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 256
-  src: git@github.com:Stackato-Apps/go-hello.git
+  src: https@github.com:Stackato-Apps/go-hello.git
   commit: master
   info: https://github.com/Stackato-Apps/go-hello#readme
 
@@ -88,7 +88,7 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 512
-  src: git://github.com/Stackato-Apps/hello-clojure.git
+  src: https://github.com/Stackato-Apps/hello-clojure.git
   commit: master
   info: https://github.com/Stackato-Apps/hello-clojure#readme
   icon: clojure.png
@@ -101,7 +101,7 @@ apps:
   mem: 256
   services:
     postgresql: hello-django-db
-  src: git://github.com/Stackato-Apps/hellodjango.git
+  src: https://github.com/Stackato-Apps/hellodjango.git
   commit: master
   info: https://github.com/Stackato-Apps/hellodjango#README
 
@@ -113,7 +113,7 @@ apps:
   mem: 512
   services:
     mysql: java-mysql
-  src: git://github.com/Stackato-Apps/hello-java-mysql.git
+  src: https://github.com/Stackato-Apps/hello-java-mysql.git
   commit: master
   info: https://github.com/Stackato-Apps/hello-java-mysql#readme
 
@@ -125,7 +125,7 @@ apps:
   mem: 512
   services:
     mysql: mysql-spring
-  src: git://github.com/Stackato-Apps/hello-spring-mysql.git
+  src: https://github.com/Stackato-Apps/hello-spring-mysql.git
   commit: stackato-store
   info: https://github.com/Stackato-Apps/hello-spring-mysql#readme
   
@@ -137,7 +137,7 @@ apps:
   mem: 512
   services:
     mysql: jee-mysql
-  src: git://github.com/Stackato-Apps/hello-jee-mysql.git
+  src: https://github.com/Stackato-Apps/hello-jee-mysql.git
   commit: stackato-store
   info: https://github.com/Stackato-Apps/hello-jee-mysql#readme
 
@@ -151,7 +151,7 @@ apps:
     filesystem: hello-scale-cache
   env:
     BUILDPACK_URL: https://github.com/heroku/heroku-buildpack-scala.git
-  src: git://github.com/Stackato-Apps/hello-scala.git
+  src: https://github.com/Stackato-Apps/hello-scala.git
   commit: master
   info: https://github.com/Stackato-Apps/hello-scala#readme
 
@@ -161,7 +161,7 @@ apps:
   framework: perl
   license: Unknown
   mem: 128
-  src: git://github.com/Stackato-Apps/mason-helloworld.git
+  src: https://github.com/Stackato-Apps/mason-helloworld.git
   commit: master
   info: https://github.com/Stackato-Apps/mason-helloworld#readme
 
@@ -171,7 +171,7 @@ apps:
   framework: perl
   license: Unknown
   mem: 128
-  src: git://github.com/Stackato-Apps/mojo-helloworld.git
+  src: https://github.com/Stackato-Apps/mojo-helloworld.git
   commit: master
   info: https://github.com/Stackato-Apps/mojo-helloworld#readme
   
@@ -182,7 +182,7 @@ apps:
   framework: node
   license: Unknown
   mem: 64 
-  src: git://github.com/Stackato-Apps/railwayjs.git
+  src: https://github.com/Stackato-Apps/railwayjs.git
   commit: master
   info: https://github.com/Stackato-Apps/railwayjs#readme
   
@@ -194,7 +194,7 @@ apps:
   mem: 128
   services:
     rabbitmq: rabbitmq-sinatra
-  src: git://github.com/Stackato-Apps/sinatra-rabbitmq.git
+  src: https://github.com/Stackato-Apps/sinatra-rabbitmq.git
   commit: master
   info: https://github.com/Stackato-Apps/sinatra-rabbitmq#readme
   
@@ -205,7 +205,7 @@ apps:
   framework: python
   license: Unknown
   mem: 128
-  src: git://github.com/Stackato-Apps/wsgi-helloworld.git
+  src: https://github.com/Stackato-Apps/wsgi-helloworld.git
   commit: master
   info: https://github.com/Stackato-Apps/wsgi-helloworld#readme
   icon: python27.png
