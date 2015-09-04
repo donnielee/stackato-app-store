@@ -1,8 +1,7 @@
 store:
   title: App Store For Simple Sample Applications
   contact: Stackato Support <stackato-support@activestate.com>
-  icons: http://get.stackato.com/store/icon/
-  icon: activestate.png
+  icon: http://get.stackato.com/store/icon/activestate.png
 
 apps:
 - id: catalyst-tut2
