@@ -13,9 +13,8 @@ apps:
   mem: 128
   env:
     CATALYST_HOME: $HOME
-  repo: git://github.com/Stackato-Apps/catalyst-tut2.git
-  branch: master
-  home: https://github.com/Stackato-Apps/catalyst-tut2#readme
+  src: git://github.com/Stackato-Apps/catalyst-tut2.git
+  info: https://github.com/Stackato-Apps/catalyst-tut2#readme
   icon: catalyst.png
 
 - id: catalyst-tut3
@@ -26,9 +25,9 @@ apps:
   mem: 128
   env:
     CATALYST_HOME: $HOME
-  repo: git://github.com/Stackato-Apps/catalyst-tut3.git
-  branch: master
-  home: https://github.com/Stackato-Apps/catalyst-tut3#readme
+  src: git://github.com/Stackato-Apps/catalyst-tut3.git
+  commit: master
+  info: https://github.com/Stackato-Apps/catalyst-tut3#readme
   icon: catalyst.png
 
 - id: cherrypy-py3
@@ -38,9 +37,9 @@ apps:
   framework: python
   license: Unknown
   mem: 128
-  repo: git://github.com/Stackato-Apps/cherrypy-py3.git
-  branch: master
-  home: https://github.com/Stackato-Apps/cherrypy-py3#readme
+  src: git://github.com/Stackato-Apps/cherrypy-py3.git
+  commit: master
+  info: https://github.com/Stackato-Apps/cherrypy-py3#readme
 
 - id: dancer-hello
   name: Dancer Hello World Sample
@@ -48,9 +47,9 @@ apps:
   framework: perl
   license: Unknown
   mem: 128
-  repo: git://github.com/Stackato-Apps/dancer-helloworld.git
-  branch: master
-  home: https://github.com/Stackato-Apps/dancer-helloworld#readme
+  src: git://github.com/Stackato-Apps/dancer-helloworld.git
+  commit: master
+  info: https://github.com/Stackato-Apps/dancer-helloworld#readme
 
 - id: flaskbars
   name: Flaskbars
@@ -60,9 +59,9 @@ apps:
   mem: 256
   services:
     postgresql: flaskbars-db
-  repo: git://github.com/Stackato-Apps/flaskbars.git
-  branch: stackato
-  home: https://github.com/Stackato-Apps/flaskbars#README
+  src: git://github.com/Stackato-Apps/flaskbars.git
+  commit: stackato
+  info: https://github.com/Stackato-Apps/flaskbars#README
 
 - id: go-hello-buildpack
   name: Hello World in Go (Buildpack)
@@ -70,9 +69,9 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 256
-  repo: git://github.com/Stackato-Apps/go-hello-buildpack.git
-  branch: master
-  home: https://github.com/Stackato-Apps/go-hello-buildpack#readme
+  src: git://github.com/Stackato-Apps/go-hello-buildpack.git
+  commit: master
+  info: https://github.com/Stackato-Apps/go-hello-buildpack#readme
 
 - id: go-hello-generic
   name: Hello World in Go (Generic)
@@ -80,9 +79,9 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 256
-  repo: git@github.com:Stackato-Apps/go-hello.git
-  branch: master
-  home: https://github.com/Stackato-Apps/go-hello#readme
+  src: git@github.com:Stackato-Apps/go-hello.git
+  commit: master
+  info: https://github.com/Stackato-Apps/go-hello#readme
 
 - id: hello-clojure
   name: Hello Clojure
@@ -90,9 +89,9 @@ apps:
   framework: buildpack
   license: Unknown
   mem: 512
-  repo: git://github.com/Stackato-Apps/hello-clojure.git
-  branch: master
-  home: https://github.com/Stackato-Apps/hello-clojure#readme
+  src: git://github.com/Stackato-Apps/hello-clojure.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hello-clojure#readme
   icon: clojure.png
 
 - id: hello-django
@@ -103,9 +102,9 @@ apps:
   mem: 256
   services:
     postgresql: hello-django-db
-  repo: git://github.com/Stackato-Apps/hellodjango.git
-  branch: master
-  home: https://github.com/Stackato-Apps/hellodjango#README
+  src: git://github.com/Stackato-Apps/hellodjango.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hellodjango#README
 
 - id: hello-java-mysql
   name: Hello Java MySQL
@@ -115,9 +114,9 @@ apps:
   mem: 512
   services:
     mysql: java-mysql
-  repo: git://github.com/Stackato-Apps/hello-java-mysql.git
-  branch: master
-  home: https://github.com/Stackato-Apps/hello-java-mysql#readme
+  src: git://github.com/Stackato-Apps/hello-java-mysql.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hello-java-mysql#readme
 
 - id: hello-spring-mysql
   name: Hello Spring MySQL
@@ -127,9 +126,9 @@ apps:
   mem: 512
   services:
     mysql: mysql-spring
-  repo: git://github.com/Stackato-Apps/hello-spring-mysql.git
-  branch: stackato-store
-  home: https://github.com/Stackato-Apps/hello-spring-mysql#readme
+  src: git://github.com/Stackato-Apps/hello-spring-mysql.git
+  commit: stackato-store
+  info: https://github.com/Stackato-Apps/hello-spring-mysql#readme
   
 - id: hello-jee
   name: Hello JavaEE MySQL
@@ -139,9 +138,9 @@ apps:
   mem: 512
   services:
     mysql: jee-mysql
-  repo: git://github.com/Stackato-Apps/hello-jee-mysql.git
-  branch: stackato-store
-  home: https://github.com/Stackato-Apps/hello-jee-mysql#readme
+  src: git://github.com/Stackato-Apps/hello-jee-mysql.git
+  commit: stackato-store
+  info: https://github.com/Stackato-Apps/hello-jee-mysql#readme
 
 - id: hello-scala
   name: Hello Scala
@@ -153,9 +152,9 @@ apps:
     filesystem: hello-scale-cache
   env:
     BUILDPACK_URL: https://github.com/heroku/heroku-buildpack-scala.git
-  repo: git://github.com/Stackato-Apps/hello-scala.git
-  branch: master
-  home: https://github.com/Stackato-Apps/hello-scala#readme
+  src: git://github.com/Stackato-Apps/hello-scala.git
+  commit: master
+  info: https://github.com/Stackato-Apps/hello-scala#readme
 
 - id: mason-hello
   name: Mason Hello World Sample
@@ -163,9 +162,9 @@ apps:
   framework: perl
   license: Unknown
   mem: 128
-  repo: git://github.com/Stackato-Apps/mason-helloworld.git
-  branch: master
-  home: https://github.com/Stackato-Apps/mason-helloworld#readme
+  src: git://github.com/Stackato-Apps/mason-helloworld.git
+  commit: master
+  info: https://github.com/Stackato-Apps/mason-helloworld#readme
 
 - id: mojo-hello
   name: Mojolicious Hello World Sample
@@ -173,9 +172,9 @@ apps:
   framework: perl
   license: Unknown
   mem: 128
-  repo: git://github.com/Stackato-Apps/mojo-helloworld.git
-  branch: master
-  home: https://github.com/Stackato-Apps/mojo-helloworld#readme
+  src: git://github.com/Stackato-Apps/mojo-helloworld.git
+  commit: master
+  info: https://github.com/Stackato-Apps/mojo-helloworld#readme
   
 - id: railwayjs
   name: RailwayJS
@@ -184,9 +183,9 @@ apps:
   framework: node
   license: Unknown
   mem: 64 
-  repo: git://github.com/Stackato-Apps/railwayjs.git
-  branch: master
-  home: https://github.com/Stackato-Apps/railwayjs#readme
+  src: git://github.com/Stackato-Apps/railwayjs.git
+  commit: master
+  info: https://github.com/Stackato-Apps/railwayjs#readme
   
 - id: sinatra-rabbitmq
   name: Sinatra RabbitMQ demo application
@@ -196,9 +195,9 @@ apps:
   mem: 128
   services:
     rabbitmq: rabbitmq-sinatra
-  repo: git://github.com/Stackato-Apps/sinatra-rabbitmq.git
-  branch: master
-  home: https://github.com/Stackato-Apps/sinatra-rabbitmq#readme
+  src: git://github.com/Stackato-Apps/sinatra-rabbitmq.git
+  commit: master
+  info: https://github.com/Stackato-Apps/sinatra-rabbitmq#readme
   
 - id: wsgi-hello
   name: WSGI Hello World Sample
@@ -207,7 +206,7 @@ apps:
   framework: python
   license: Unknown
   mem: 128
-  repo: git://github.com/Stackato-Apps/wsgi-helloworld.git
-  branch: master
-  home: https://github.com/Stackato-Apps/wsgi-helloworld#readme
+  src: git://github.com/Stackato-Apps/wsgi-helloworld.git
+  commit: master
+  info: https://github.com/Stackato-Apps/wsgi-helloworld#readme
   icon: python27.png
