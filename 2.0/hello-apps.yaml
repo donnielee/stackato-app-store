@@ -4,8 +4,8 @@ store:
   icon: http://get.stackato.com/store/icon/activestate.png
 
 apps:
-- id: catalyst-tut2
-  name: Catalyst Tutorial 2
+- name: Catalyst Tutorial 2
+  id: catalyst-tut2
   desc: Catalyst Web Framework Tutorial - Chapter 2
   framework: perl
   license: Unknown
@@ -16,8 +16,8 @@ apps:
   info: https://github.com/Stackato-Apps/catalyst-tut2#readme
   icon: catalyst.png
 
-- id: catalyst-tut3
-  name: Catalyst Tutorial 3
+- name: Catalyst Tutorial 3
+  id: catalyst-tut3
   desc: Catalyst Web Framework Tutorial - Chapter 3
   framework: perl
   license: Unknown
@@ -29,8 +29,8 @@ apps:
   info: https://github.com/Stackato-Apps/catalyst-tut3#readme
   icon: catalyst.png
 
-- id: cherrypy-py3
-  name: Python 3 CherryPy Demo
+- name: Python 3 CherryPy Demo
+  id: cherrypy-py3
   desc: This is a Hello World app demonstrating a Python 3 based web application using CherryPy.
   runtime: python32
   framework: python
@@ -40,8 +40,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/cherrypy-py3#readme
 
-- id: dancer-hello
-  name: Dancer Hello World Sample
+- name: Dancer Hello World Sample
+  id: dancer-hello
   desc: Dancer Hello World Sample
   framework: perl
   license: Unknown
@@ -50,8 +50,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/dancer-helloworld#readme
 
-- id: flaskbars
-  name: Flaskbars
+- name: Flaskbars
+  id: flaskbars
   desc: Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, Stackato and Heroku
   framework: buildpack
   license: Unknown
@@ -62,8 +62,8 @@ apps:
   commit: stackato
   info: https://github.com/Stackato-Apps/flaskbars#README
 
-- id: go-hello-buildpack
-  name: Hello World in Go (Buildpack)
+- name: Hello World in Go (Buildpack)
+  id: go-hello-buildpack
   desc: Hello World sample app in Go using Stackato buildpack framework
   framework: buildpack
   license: Unknown
@@ -72,8 +72,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/go-hello-buildpack#readme
 
-- id: go-hello-generic
-  name: Hello World in Go (Generic)
+- name: Hello World in Go (Generic)
+  id: go-hello-generic
   desc: Hello World sample app in Go using Stackato buildpack framework
   framework: buildpack
   license: Unknown
@@ -82,8 +82,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/go-hello#readme
 
-- id: hello-clojure
-  name: Hello Clojure
+- name: Hello Clojure
+  id: hello-clojure
   desc: Hello World sample app in Clojure using Stackato buildpack framework
   framework: buildpack
   license: Unknown
@@ -93,8 +93,8 @@ apps:
   info: https://github.com/Stackato-Apps/hello-clojure#readme
   icon: clojure.png
 
-- id: hello-django
-  name: Hello Django
+- name: Hello Django
+  id: hello-django
   desc: Hello World sample app in Django using Stackato buildpack framework
   framework: buildpack
   license: Unknown
@@ -105,8 +105,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/hellodjango#README
 
-- id: hello-java-mysql
-  name: Hello Java MySQL
+- name: Hello Java MySQL
+  id: hello-java-mysql
   desc: Hello Java MySQL using Stackato buildpack framework
   framework: buildpack
   license: Unknown
@@ -117,8 +117,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/hello-java-mysql#readme
 
-- id: hello-spring-mysql
-  name: Hello Spring MySQL
+- name: Hello Spring MySQL
+  id: hello-spring-mysql
   desc: Hello Spring MySQL
   framework: spring
   license: Unknown
@@ -129,8 +129,8 @@ apps:
   commit: stackato-store
   info: https://github.com/Stackato-Apps/hello-spring-mysql#readme
   
-- id: hello-jee
-  name: Hello JavaEE MySQL
+- name: Hello JavaEE MySQL
+  id: hello-jee
   desc: Hello JavaEE MySQL
   framework: java_ee
   license: Unknown
@@ -141,8 +141,8 @@ apps:
   commit: stackato-store
   info: https://github.com/Stackato-Apps/hello-jee-mysql#readme
 
-- id: hello-scala
-  name: Hello Scala
+- name: Hello Scala
+  id: hello-scala
   desc: Hello World sample app in Scala using Stackato buildpack framework
   framework: buildpack
   license: Unknown
@@ -155,8 +155,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/hello-scala#readme
 
-- id: mason-hello
-  name: Mason Hello World Sample
+- name: Mason Hello World Sample
+  id: mason-hello
   desc: Mason Hello World Sample
   framework: perl
   license: Unknown
@@ -165,8 +165,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/mason-helloworld#readme
 
-- id: mojo-hello
-  name: Mojolicious Hello World Sample
+- name: Mojolicious Hello World Sample
+  id: mojo-hello
   desc: Mojolicious Hello World Sample
   framework: perl
   license: Unknown
@@ -175,8 +175,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/mojo-helloworld#readme
   
-- id: railwayjs
-  name: RailwayJS
+- name: RailwayJS
+  id: railwayjs
   desc: Railway is the Node.JS MVC framework based on ExpressJS, fully ExpressJS-compatible. It allows you to build web applications in a similar manner as in Ruby On Rails.
   runtime: node
   framework: node
@@ -186,8 +186,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/railwayjs#readme
   
-- id: sinatra-rabbitmq
-  name: Sinatra RabbitMQ demo application
+- name: Sinatra RabbitMQ demo application
+  id: sinatra-rabbitmq
   desc: Sinatra RabbitMQ demo application
   framework: sinatra
   license: Unknown
@@ -198,8 +198,8 @@ apps:
   commit: master
   info: https://github.com/Stackato-Apps/sinatra-rabbitmq#readme
   
-- id: wsgi-hello
-  name: WSGI Hello World Sample
+- name: WSGI Hello World Sample
+  id: wsgi-hello
   desc: A minimal Python WSGI application
   runtime: python27
   framework: python
